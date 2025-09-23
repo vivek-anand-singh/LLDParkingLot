@@ -13,4 +13,14 @@ public class ParkingFloor {
     public List<ParkingSpot> getParkingSpots() {
         return new ArrayList<>(this.parkingSpots);
     }
+
+    public List<ISpot> getSpotsByType(SpotType spotType) {
+        List<ISpot> spotsByType = new ArrayList<>();
+        for(ParkingSpot spot : this.parkingSpots) {
+            if(spot.getSpotType() == spotType) {
+                spotsByType.add(spot);
+            }
+        }
+        return spotsByType;
+    }
 }

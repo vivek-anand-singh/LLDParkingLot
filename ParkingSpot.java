@@ -40,6 +40,6 @@ public class ParkingSpot implements ISpot {
     
     @Override
     public boolean isChargingPoint() {
-        return false; // Regular parking spots are not charging points
+        return false;
     }
 }

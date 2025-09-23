@@ -32,6 +32,6 @@ public class ChargingPoint implements ISpot {
 
     @Override
     public boolean isChargingPoint() {
-        return true; // Charging points always return true
+        return true;
     }
 }

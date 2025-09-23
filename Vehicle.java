@@ -5,8 +5,7 @@ public abstract class Vehicle {
         this.vehicleNum = vehicleNum;
     }
 
-    public String vehicleNum(){
+    public String getVehicleNum(){
         return this.vehicleNum;
     }
-
 }
